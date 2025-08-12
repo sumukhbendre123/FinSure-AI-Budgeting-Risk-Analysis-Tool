@@ -112,13 +112,7 @@
 - Frontend fetches processed data from backend APIs.  
 - Chart.js visualizes expense breakdowns, savings progress, and forecast trends.  
 
----
-
-## 5. Non-Functional Requirements (NFRs)
-- **Scalability:** Backend services horizontally scalable using container orchestration (Kubernetes/Docker).  
-- **Security:** End-to-end encryption, secure API access, and compliance with data privacy standards (e.g., GDPR).  
-- **Performance:** API responses under 300ms for typical queries.  
-- **Reliability:** 99.9% uptime target with monitoring and logging.  
+ 
 
 
 
