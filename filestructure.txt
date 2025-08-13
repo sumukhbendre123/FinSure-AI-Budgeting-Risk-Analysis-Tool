@@ -32,6 +32,7 @@
         |-- manage.py
         |-- myproject
             |-- asgi.py
+            |-- celery.py
             |-- settings.py
             |-- urls.py
             |-- wsgi.py
@@ -44,19 +45,27 @@
         |-- security
             |-- admin.py
             |-- apps.py
+            |-- encryption.py
+            |-- jwt_auth.py
             |-- migrations
                 |-- __init__.py
             |-- models.py
+            |-- otp_service.py
             |-- tests.py
             |-- views.py
             |-- __init__.py
         |-- transactions
             |-- admin.py
             |-- apps.py
+            |-- connectors
+                |-- base.py
             |-- migrations
                 |-- __init__.py
             |-- models.py
+            |-- serializers.py
+            |-- services.py
             |-- tests.py
+            |-- urls.py
             |-- views.py
             |-- __init__.py
         |-- users
@@ -65,7 +74,10 @@
             |-- migrations
                 |-- __init__.py
             |-- models.py
+            |-- serializers.py
+            |-- services.py
             |-- tests.py
+            |-- urls.py
             |-- views.py
             |-- __init__.py
 |-- HLD.md
